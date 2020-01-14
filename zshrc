@@ -109,8 +109,8 @@ alias aintua="cd /media/stelios/Storage/Documents/ECE/Software/Artificial_Intell
 alias neural="cd /media/stelios/Storage/Documents/ECE/Hardware/Neural_Networks/neural_networks"
 
 # git commands
-alias gadd="git add ."
-alias gcommit="git commit"
+alias gadd="git add"
+alias gcommit="git commit -m"
 alias gpush="git push"
 alias gpull="git pull"
 alias gfetch="git fetch"

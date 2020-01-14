@@ -1,6 +1,6 @@
 # Custom configuration files
 
-This repository's purpose is to save configuration files that I have modified in order for me to be able to have them available in different computers
+This repository's purpose is to save configuration files for linux apps that I have modified in order for me to be able to have them available in different computers
 
 
 ## This section contains the default path and name of each modified file

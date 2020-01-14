@@ -107,6 +107,9 @@ alias sshparlab="ssh -t parlab30@orion.cslab.ece.ntua.gr ssh parlab30@scirouter.
 alias parlab="cd /media/stelios/Storage/Documents/ECE/Hardware/Parallel_Processing_Systems/parlab"
 alias aintua="cd /media/stelios/Storage/Documents/ECE/Software/Artificial_Intelligence"
 alias neural="cd /media/stelios/Storage/Documents/ECE/Hardware/Neural_Networks/neural_networks"
+alias compilers="cd /media/stelios/Storage/Documents/ECE/Software/Compilers/compilers-ntua"
+alias software="cd /media/stelios/Storage/Documents/ECE/Software"
+alias hardware="cd /media/stelios/Storage/Documents/ECE/Hardware"
 
 # git commands
 alias gadd="git add"

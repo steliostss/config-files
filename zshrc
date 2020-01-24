@@ -120,6 +120,6 @@ alias gfetch="git fetch"
 alias gstatus="git status"
 
 # general purpose commands
-alias tclear="tput reset"
+alias cclear="tput reset"
 alias supgrade="sudo apt-get update && (sudo apt-get upgrade || sudo apt-get upgrade -y) && sudo apt autoremove && sudo snap refresh"
 #alias ls="ls -F --color=none"

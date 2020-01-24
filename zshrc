@@ -104,17 +104,17 @@ source $ZSH/oh-my-zsh.sh
 
 # ece ntua commands
 alias sshparlab="ssh -t parlab30@orion.cslab.ece.ntua.gr ssh parlab30@scirouter.cslab.ece.ntua.gr"
-alias parlab="cd /media/stelios/Storage/Documents/ECE/Hardware/Parallel_Processing_Systems/parlab"
-alias aintua="cd /media/stelios/Storage/Documents/ECE/Software/Artificial_Intelligence"
-alias neural="cd /media/stelios/Storage/Documents/ECE/Hardware/Neural_Networks/neural_networks"
-alias compilers="cd /media/stelios/Storage/Documents/ECE/Software/Compilers/compilers-ntua"
-alias software="cd /media/stelios/Storage/Documents/ECE/Software"
-alias hardware="cd /media/stelios/Storage/Documents/ECE/Hardware"
+alias parlab="cd /mnt/Storage/Documents/ECE/Hardware/Parallel_Processing_Systems/parlab"
+alias aintua="cd /mnt/Storage/Documents/ECE/Software/Artificial_Intelligence"
+alias neural="cd /mnt/Storage/Documents/ECE/Hardware/Neural_Networks/neural_networks"
+alias compilers="cd /mnt/Storage/Documents/ECE/Software/Compilers/compilers-ntua"
+alias software="cd /mnt/Storage/Documents/ECE/Software"
+alias hardware="cd /mnt/Storage/Documents/ECE/Hardware"
 
 # git commands
 alias gadd="git add"
 alias gcommit="git commit -m"
-alias gpush="git push"
+alias gpush="git pull && git push"
 alias gpull="git pull"
 alias gfetch="git fetch"
 alias gstatus="git status"

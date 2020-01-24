@@ -123,3 +123,7 @@ alias gstatus="git status"
 alias cclear="tput reset"
 alias supgrade="sudo apt-get update && (sudo apt-get upgrade || sudo apt-get upgrade -y) && sudo apt autoremove && sudo snap refresh"
 #alias ls="ls -F --color=none"
+
+
+alias wmax='xdotool key super+Up'
+alias clion='nohup /usr/local/bin/clion &>/dev/null &'

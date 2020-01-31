@@ -10,4 +10,4 @@ This repository's purpose is to save configuration files for linux apps that I h
 - [deeping-command-config.conf](https://github.com/steliostss/conf-files/blob/master/deepin-command-config.conf) : ~/.config/deeping/deeping-terminal/command-config.conf
 - [tmux.conf](https://github.com/steliostss/conf-files/blob/master/tmux.conf) : ~/.tmux.conf
 - [agnoster.zsh-theme](https://github.com/steliostss/conf-files/blob/master/agnoster.zsh-theme) : ~/.oh-my-zsh/themes/agnoster.zsh-theme
-
+- [fstab](https://github.com/steliostss/config-files/blob/master/fstab.old) : /etc/fstab

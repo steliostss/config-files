@@ -123,7 +123,13 @@ alias gstatus="git status"
 alias cclear="tput reset"
 alias supgrade="sudo apt-get update && (sudo apt-get upgrade || sudo apt-get upgrade -y) && sudo apt autoremove && sudo snap refresh"
 #alias ls="ls -F --color=none"
-
+alias ddnd="sudo dnd.py -d"
+alias ednd="sudo dnd.py -e"
 
 alias wmax='xdotool key super+Up'
 alias clion='nohup /usr/local/bin/clion &>/dev/null &'
+
+alias SR='shutdown -r 0'
+alias SS='shutdown 0'
+alias 'lldisks'='df -h /dev/sdc1 /dev/sdb1 /dev/sda3'
+

@@ -3,7 +3,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/stelios/.oh-my-zsh"
-export PATH=~/anaconda3/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,6 +109,13 @@ alias neural="cd /mnt/Storage/Documents/ECE/Hardware/Neural_Networks/neural_netw
 alias compilers="cd /mnt/Storage/Documents/ECE/Software/Compilers/compilers-ntua"
 alias software="cd /mnt/Storage/Documents/ECE/Software"
 alias hardware="cd /mnt/Storage/Documents/ECE/Hardware"
+alias ece="cd /mnt/Storage/Documents/ECE/"
+
+# FEUP commands
+alias pdistrib="cd /mnt/Storage/Documents/ECE/Erasmus/porto/courses/distrib_systems"
+alias pmulti="cd /mnt/Storage/Documents/ECE/Erasmus/porto/courses/multimedia"
+alias aifeup="cd /mnt/Storage/Documents/ECE/Erasmus/porto/courses/AI"
+alias pemb="cd /mnt/Storage/Documents/ECE/Erasmus/porto/courses/embedded_feup"
 
 # git commands
 alias gadd="git add"
@@ -122,6 +128,9 @@ alias gstatus="git status"
 # general purpose commands
 alias cclear="tput reset"
 alias supgrade="sudo apt-get update && (sudo apt-get upgrade || sudo apt-get upgrade -y) && sudo apt autoremove && sudo snap refresh"
+alias count="find . -type f | wc -l"
+alias image="eog"
+
 #alias ls="ls -F --color=none"
 alias ddnd="sudo dnd.py -d"
 alias ednd="sudo dnd.py -e"
@@ -131,5 +140,12 @@ alias clion='nohup /usr/local/bin/clion &>/dev/null &'
 
 alias SR='shutdown -r 0'
 alias SS='shutdown 0'
-alias 'lldisks'='df -h /dev/sdc1 /dev/sdb1 /dev/sda3'
+alias 'lldisks'='df -h /dev/sdc1 /dev/sdb1 /dev/sda3 /'
 
+alias ll='tree -L 1'
+
+alias aa='fuck'
+
+alias resetreset='setxkbmap -layout us'
+
+eval $(thefuck --alias)

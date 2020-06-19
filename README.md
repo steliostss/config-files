@@ -12,3 +12,4 @@ This repository's purpose is to save configuration files for linux apps that I h
 - [agnoster.zsh-theme](https://github.com/steliostss/conf-files/blob/master/agnoster.zsh-theme) : ~/.oh-my-zsh/themes/agnoster.zsh-theme
 - [fstab](https://github.com/steliostss/config-files/blob/master/fstab.old) : /etc/fstab
 - [BCM43142A0-0a5c-216d.hcd](https://github.com/steliostss/config-files/blob/master/BCM43142A0-0a5c-216d.hcd): /lib/firmware/brcm/
+- [dash-to-panel.conf](): import to extension settings

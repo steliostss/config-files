@@ -110,6 +110,10 @@ alias compilers="cd /mnt/Storage/Documents/ECE/Software/Compilers/compilers-ntua
 alias software="cd /mnt/Storage/Documents/ECE/Software"
 alias hardware="cd /mnt/Storage/Documents/ECE/Hardware"
 alias ece="cd /mnt/Storage/Documents/ECE/"
+alias thesis="/mnt/Storage/Documents/ECE/Thesis/Cambridge/"
+
+alias storage="cd /mnt/Storage/"
+
 
 # FEUP commands
 alias pdistrib="cd /mnt/Storage/Documents/ECE/Erasmus/porto/courses/distrib_systems"
@@ -124,6 +128,7 @@ alias gpush="git pull && git push"
 alias gpull="git pull"
 alias gfetch="git fetch"
 alias gstatus="git status"
+alias ignore="gadd .gitignore && gcommit \"Update gitignore\""
 
 # general purpose commands
 alias cclear="tput reset"
@@ -140,12 +145,33 @@ alias clion='nohup /usr/local/bin/clion &>/dev/null &'
 
 alias SR='shutdown -r 0'
 alias SS='shutdown 0'
-alias 'lldisks'='df -h /dev/sdc1 /dev/sdb1 /dev/sda3 /'
+alias lldisks='df -h /dev/sda2 /dev/sdb1'
 
 alias ll='tree -L 1'
+alias λλ='tree -L 1'
 
 alias aa='fuck'
 
+alias df='df -h'
+
 alias resetreset='setxkbmap -layout us'
 
+alias sshpi='ssh pi@pi'
+
+
+# translate aliases
+alias trel="trans -b -j :el" # translate word to greek
+alias tren="trans -b -j :en" # translate word to english
+alias μετ="trans -b -j :en" # translate word to english
+
 eval $(thefuck --alias)
+
+
+count_file_lines() {
+    local subj=$(wc -l $1)
+    subj="${subj//$1/}"
+    echo ${subj//[[:space:]]}
+}
+
+# opam configuration
+test -r /home/stelios/.opam/opam-init/init.zsh && . /home/stelios/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

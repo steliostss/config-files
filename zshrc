@@ -158,6 +158,7 @@ alias resetreset='setxkbmap -layout us'
 
 alias sshpi='ssh pi@pi'
 
+alias open="xdg-open . && exit"
 
 # translate aliases
 alias trel="trans -b -j :el" # translate word to greek
@@ -172,6 +173,11 @@ count_file_lines() {
     subj="${subj//$1/}"
     echo ${subj//[[:space:]]}
 }
+
+
+calc() { local in="$(echo " $*" | sed -e 's/\[/(/g' -e 's/\]/)/g')";
+       gawk -M -v PREC=201 -M 'BEGIN {printf("%.60g\n",'"${in-0}"')}' < /dev/null
+     }
 
 # opam configuration
 test -r /home/stelios/.opam/opam-init/init.zsh && . /home/stelios/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

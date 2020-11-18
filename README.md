@@ -13,3 +13,5 @@ This repository's purpose is to save configuration files for linux apps that I h
 - [fstab](https://github.com/steliostss/config-files/blob/master/fstab.old) : /etc/fstab
 - [BCM43142A0-0a5c-216d.hcd](https://github.com/steliostss/config-files/blob/master/BCM43142A0-0a5c-216d.hcd): /lib/firmware/brcm/
 - [dash-to-panel.conf](): import to extension settings
+- [part.rc](https://github.com/steliostss/config-files/blob/master/part.rc): ~/.local/share/kxmlgui5/okular/part.rc
+- [shell.rc](https://github.com/steliostss/config-files/blob/master/shell.rc): ~/.local/share/kxmlgui5/okular/shell.rc

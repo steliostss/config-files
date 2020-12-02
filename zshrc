@@ -4,6 +4,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/stelios/.oh-my-zsh"
 
+# Path to spicetify
+export SPICETIFY_INSTALL="/home/stelios/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -139,6 +143,7 @@ alias image="eog"
 #alias ls="ls -F --color=none"
 alias ddnd="sudo dnd.py -d"
 alias ednd="sudo dnd.py -e"
+alias fdnd="sudo dnd.py -f"
 
 alias wmax='xdotool key super+Up'
 alias clion='nohup /usr/local/bin/clion &>/dev/null &'
@@ -149,6 +154,7 @@ alias lldisks='df -h /dev/sda2 /dev/sdb1'
 
 alias ll='tree -L 1'
 alias λλ='tree -L 1'
+alias ls="ls -g -h"
 
 alias aa='fuck'
 
@@ -175,9 +181,30 @@ count_file_lines() {
 }
 
 
+# calculator
 calc() { local in="$(echo " $*" | sed -e 's/\[/(/g' -e 's/\]/)/g')";
        gawk -M -v PREC=201 -M 'BEGIN {printf("%.60g\n",'"${in-0}"')}' < /dev/null
      }
 
+# multiply
+mul() {
+	local prod=1;
+	for i in $*;
+	do
+		prod=$(($prod*$i));
+	done
+	echo $prod;
+}
+
+
+# add
+add() {
+	local sum=0;
+	for i in $*;
+	do
+		sum=$(($sum+$i));
+	done
+	echo $sum;
+}
 # opam configuration
 test -r /home/stelios/.opam/opam-init/init.zsh && . /home/stelios/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

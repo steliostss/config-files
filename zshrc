@@ -165,6 +165,7 @@ alias resetreset='setxkbmap -layout us'
 alias sshpi='ssh pi@pi'
 
 alias open="xdg-open . && exit"
+alias python="python3"
 
 # translate aliases
 alias trel="trans -b -j :el" # translate word to greek

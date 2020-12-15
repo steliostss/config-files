@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/stelios/.oh-my-zsh"
 
+# Path to tex
+export PATH="/usr/local/texlive/2020/bin/x86_64-linux:$PATH"
+
 # Path to spicetify
 export SPICETIFY_INSTALL="/home/stelios/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
@@ -109,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias sshparlab="ssh -t parlab30@orion.cslab.ece.ntua.gr ssh parlab30@scirouter.cslab.ece.ntua.gr"
 alias parlab="cd /mnt/Storage/Documents/ECE/Hardware/Parallel_Processing_Systems/parlab"
 alias aintua="cd /mnt/Storage/Documents/ECE/Software/Artificial_Intelligence"
-alias neural="cd /mnt/Storage/Documents/ECE/Hardware/Neural_Networks/neural_networks"
+alias neural="cd /mnt/Storage/Documents/ECE/Hardware/Neural_Networks/"
 alias compilers="cd /mnt/Storage/Documents/ECE/Software/Compilers/compilers-ntua"
 alias software="cd /mnt/Storage/Documents/ECE/Software"
 alias hardware="cd /mnt/Storage/Documents/ECE/Hardware"
@@ -166,6 +169,7 @@ alias sshpi='ssh pi@pi'
 
 alias open="xdg-open . && exit"
 alias python="python3"
+alias rm="rm -v"
 
 # translate aliases
 alias trel="trans -b -j :el" # translate word to greek

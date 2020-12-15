@@ -3,6 +3,9 @@
 	name = Stelios Tsagkarakis
 
 [alias]
+
+	# configs taken from https://github.com/ioandr/dotfiles
+
 	co = checkout
 
 	# View a pretty git log with branch tree

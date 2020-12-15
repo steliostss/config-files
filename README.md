@@ -17,3 +17,4 @@ This repository's purpose is to save configuration files for linux apps that I h
 | [part.rc](https://github.com/steliostss/config-files/blob/master/part.rc) | ~/.local/share/kxmlgui5/okular/part.rc |
 | [shell.rc](https://github.com/steliostss/config-files/blob/master/shell.rc) | ~/.local/share/kxmlgui5/okular/shell.rc |
 | [hp-ubuntu-20.04-configs]() | dconf load < hp-ubuntu-20.04-configs |
+| [gitconfig](https://github.com/steliostss/config-files/blob/master/gitconfig) | ~/.gitconfig |

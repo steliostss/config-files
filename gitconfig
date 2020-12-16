@@ -3,13 +3,10 @@
 	name = Stelios Tsagkarakis
 
 [alias]
-
-	# configs taken from https://github.com/ioandr/dotfiles
-
 	co = checkout
 
 	# View a pretty git log with branch tree
 	g = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 
 	# Start a new local repository and perform initial commit
-	this = !git init && git add . && git commmit -m \"Initial commit.\"
+	this = !git init && git add . && git commit -m \"Initial commit.\"
